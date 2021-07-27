@@ -17,4 +17,14 @@
         android:id="@+id/scoreTV"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Score"
+        android:textSize="12pt"
+        android:textColor="@color/white"
+        android:id="@+id/emailButton"
+
+        />
+
     </LinearLayout>
