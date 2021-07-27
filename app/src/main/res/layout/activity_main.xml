@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ronald Reagan was also a US President."
+        android:textSize="12pt"
+        android:id="@+id/questionTV"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="True"
+        android:textSize="12pt"
+        android:id="@+id/trueButton"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="False"
+        android:textSize="12pt"
+        android:textColor="@color/black"
+        android:id="@+id/falseButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="12pt"
+        android:textColor="@color/white"
+        android:id="@+id/nextButton"
+
+        />
+
+
+</LinearLayout>
